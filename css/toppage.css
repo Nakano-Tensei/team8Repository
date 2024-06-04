@@ -1,8 +1,5 @@
-html{
-
-}
 body{
-    max-width: 500px;
+    max-width: 700px;
     margin: auto;
     background-color: white;
     border: 2px black solid;
@@ -18,6 +15,7 @@ h1{
     border-radius: 0 20px 0 0;
 }
 h2{
+    margin:0;
     padding: 10px;
     border-left: 5px red solid;
     background-color:lightcyan;
@@ -26,6 +24,14 @@ h2{
     margin: 10px;
     max-width: 200px;
     font-size: 20px;
-    border-bottom: 2px blue solid;
+    border-left: 3px blue solid;
+    border-bottom: 2px lightblue solid;
     text-align: center;
+}
+form{
+    margin: 10px;
+    max-width: 500px;
+    padding: 5px;
+    border-left: 3px blue solid;
+    border-bottom: 2px lightblue solid;
 }
