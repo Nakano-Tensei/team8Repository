@@ -1,9 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+    <head>
     <title>大戸井 慶伍の出身校紹介ページ</title>
     <meta charset="utf-8">
+    <script>
+        function Omikuji() {
+
+let omikuji = ["大吉","吉","中吉","小吉","末吉","凶","大凶"];
+let r = Math.floor( Math.random() * omikuji.length) ;//おみくじぶんの数字を作ります
+document.getElementById("kekka").innerHTML = omikuji[r];//結果をid="kekka"に表示します
+}
+
+    </script>
+    <button onclick="Omikuji();">　おみくじを引く　</button>
+    <p id="kekka"></p>
 </head>
 <body>
+
     <link rel="stylesheet" href="oodoi.css">
 
     <h1>大戸井 慶伍の出身校紹介ページ(作成者：渡邊 蒼士)</h1>
