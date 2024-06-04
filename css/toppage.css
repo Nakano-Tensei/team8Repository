@@ -17,7 +17,7 @@ h1{
 h2{
     margin:0;
     padding: 10px;
-    border-left: 5px red solid;
+    border-left: 5px blue solid;
     background-color:lightcyan;
 }
 .clock{
