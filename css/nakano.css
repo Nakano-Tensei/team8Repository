@@ -1,0 +1,94 @@
+html{
+    background:  repeating-linear-gradient(-45deg, #ffde79, #ffde79 2px, #c2b8f6 0px, #c2b8f6 40px,  #b2a7eb 0px, #b2a7eb 80px);  
+    margin: auto;
+    background-attachment: fixed;
+}
+#backGround{
+    background: repeating-linear-gradient(-45deg,#ffde79c3, #ffde79c3 1px, #ffffff00 0px, #ffffff00 40px );
+    background-attachment:scroll;
+}
+main{
+    background-image:  linear-gradient(135deg, #ffe9a8 25%, transparent 25%), linear-gradient(225deg, #ffe9a8 25%, transparent 25%), linear-gradient(45deg, #ffe9a8 25%, transparent 25%), linear-gradient(315deg, #ffe9a8 25%, #fff2d7 25%);
+    background-position:  50px 0, 50px 0, 0 0, 0 0;
+    background-size: 50px 50px;
+    background-repeat: repeat;
+
+    margin: auto;
+    padding: 20px;
+    width: auto;
+    max-width: 1000px;
+    border: 5px rgb(48, 48, 48) solid;
+    border-radius: 20px;
+    overflow: hidden;
+}
+h1{
+    font-size: 2.5rem; 
+    background-color: rgb(48, 48, 48);
+    color:burlywood;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+h2{
+    background-color: rgb(69, 69, 69);
+    color:burlywood;
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    border-radius: 0px 0px 30px 30px;
+}
+img{
+    max-width: 700px;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px rgb(69, 69, 69) solid;
+    box-shadow: 10px 8px rgb(69, 69, 69);
+}
+.mokuji {
+    max-width: 700px;
+    margin: auto;
+    padding: auto;
+    display:flex;
+}
+table{
+    margin-right: auto;
+    max-width: 500px;
+    background-color: white;
+    border: 2px rgb(69, 69, 69) solid;
+    border-radius: 20px;
+    box-shadow: 10px 8px rgb(69, 69, 69);
+}
+tr td{
+    padding: 10px 30px;
+}
+.mokuji h2{
+    background-color:white;
+    color:rgb(112, 63, 63);
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    border-radius: 0px 0px 30px 30px;
+}
+a:hover{
+    font-size: 17px;
+}
+.matome{
+    background-color: white;
+    border: 2px rgb(69, 69, 69) solid;
+    margin:20px auto ;
+    max-width: 700px;
+    border-radius:30px;
+    box-shadow: 15px 10px rgb(69, 69, 69);
+}
+.top{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 100px;
+    border:2px rgb(69, 69, 69) solid;
+    border-radius: 10px;
+}
