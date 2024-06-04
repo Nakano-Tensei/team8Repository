@@ -1,0 +1,32 @@
+h1 {
+color:green;
+text-align: center;
+border: 1rem solid;
+text-shadow: none;
+
+}
+
+i {
+    font-size : 20px;
+    color:blue;
+    text-shadow: none;
+}
+
+u {
+    color:red;
+    text-decoration:underline double;
+}
+
+body {
+    background-color: moccasin;
+}
+
+h3 {
+    text-align: left;
+
+}
+
+a {
+    font-size : 20px;
+    color:blueviolet;
+}
