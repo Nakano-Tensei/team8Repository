@@ -5,7 +5,7 @@ setInterval(() =>{
     const minute = now.getMinutes().toString().padStart(2, '0');
     const second = now.getSeconds().toString().padStart(2, '0');
 
-    const currentTime = `${hour}:${minute}:${second}`;
+    const currentTime = `現在時刻...${hour}:${minute}:${second}`;
 
     document.querySelector(".clock").textContent = currentTime;
 },100);
