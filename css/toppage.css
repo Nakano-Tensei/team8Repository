@@ -17,9 +17,7 @@ body{
 }
 h1{
     margin: auto;
-    background-color: rgb(43, 16, 162);
-    border-left: 50px rgb(22, 11, 90) solid;
-    border-right: 50px rgb(22, 11, 90) solid;
+    background: linear-gradient(90deg,rgb(3, 5, 51),rgb(43, 16, 162),rgb(3, 5, 51));
     border-top: 10px  rgb(181, 179, 245) solid;
     border-bottom: 10px  rgb(181, 179, 245) solid;
     color: aliceblue;
@@ -29,8 +27,9 @@ h1{
 h2{
     margin:0;
     padding: 10px;
-    border-left: 10px rgb(60, 60, 230) solid;
-    background-color:lightcyan;
+    border-left: 10px rgb(28, 33, 121) solid;
+    background:linear-gradient(90deg, rgb(81, 36, 215) 30%,rgb(255, 222, 222));
+    color: aliceblue;
     font-size: 30px;
 }
 ul{
