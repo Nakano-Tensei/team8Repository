@@ -1,10 +1,16 @@
-.div{
-    width: 100%;              /* 幅指定                          */
-    background-color: #000;   /* 背景色指定(黒色)                */
-    text-align: center;       /* テキスト表示位置指定(中央寄せ)  */
+html{
+    background: repeating-linear-gradient(white,rgb(140, 218, 222),rgb(65, 182, 228));
 }
 
-.text{
-    font-size:30px;           /* 文字サイズ指定                  */
-    color: #fff;              /* 色指定(白色)                    */
+.bg_test-text{
+   border: solid 1px;
+   display: inline-block;
+   padding: 10px 20px;
+   text-align: center;
+   padding: 150px;
+   border:solid 2px;
+   background-image: url(../images/bg.jpg);
+   background-repeat: repeat;
+   
 }
+
