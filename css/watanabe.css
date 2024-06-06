@@ -16,3 +16,9 @@ html{
 li{
     font-size: large;
 }
+h2{
+    background: repeating-linear-gradient(rgb(65, 182, 228),rgb(140, 218, 222)) ;
+}
+h1{
+    background: repeating-linear-gradient(blue,rgb(65, 182, 228),rgb(140, 218, 222)) ;
+}
