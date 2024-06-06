@@ -37,6 +37,18 @@
                 </script>
                 <button onclick="Omikuji();">　おみくじを引く　</button>
                 <p id="kekka"></p>
+                <div class="backcolor">
+                    <button id="colorButton">色を変更</button>
+                    <script>
+                        const colors = ['red','maroon','yellow','olive','lime','green','aqua','teal','blue','navy','fuchsia','purple','black','gray','silver','white'];
+                        let currentIndex = 0;
+                        const button = document.getElementById('colorButton');
+                        button.addEventListener('click', function() {
+                            document.body.style.backgroundColor = colors[currentIndex];
+                            currentIndex = (currentIndex + 1) % colors.length;
+                        });
+                    </script>
+                </div>
             </div>
         </div>
     </body>
